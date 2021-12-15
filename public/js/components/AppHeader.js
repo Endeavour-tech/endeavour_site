@@ -6,8 +6,7 @@ export default class AppHeader extends HTMLElement {
 
     connectedCallback() {
         this.shadowRoot.innerHTML = `
-        <link href="${location.origin}/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="${location.origin}/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="${location.origin}/assets/icofont/icofont.min.css">
         ${this.style()}
         <header>
@@ -89,7 +88,7 @@ export default class AppHeader extends HTMLElement {
                 background: var(--fourth);
                 border-radius: 2px;
             }
-            
+
             @media (max-width: 992px) {
                 .bar__container__hide {display: none;}
                 .bar__container {
@@ -168,7 +167,7 @@ export default class AppHeader extends HTMLElement {
                 }
 
                 .hide__responsive__bar {animation: slideFromRight .4s ease-in forwards;}
-            
+
                 @keyframes slideFromLeft {
                     from {right: -50%;}
                     to {right: 0;}

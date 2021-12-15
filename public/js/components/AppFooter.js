@@ -3,11 +3,10 @@ export default class AppFooter extends HTMLElement {
         super()
         this.attachShadow({mode: 'open'})
     }
-    
+
     connectedCallback() {
         this.shadowRoot.innerHTML = `
-        <link href="${location.origin}/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="${location.origin}/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/icofont/icofont.min.css">
 
         <footer>
