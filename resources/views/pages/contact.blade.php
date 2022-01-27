@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}"> 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"> 
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
     <title>Endeavour | Contacts</title>
 </head>
 <body>
-    
-    
+
+
     <div class="mb-5 pb-5 top__field">
         <div class="container-fluid">
             <app-header active="contacts"></app-header>
-            {{-- <lottie-player src="{{ asset('assets/icons/lf30_editor_ycf6brhj.json') }}" background="transparent" speed="1" style="width: 100%; height: auto; margin-top: 15px;" loop autoplay></lottie-player> --}}
             <div class="d-flex justify-content-center mt-3">
                 <div class="container-fluid container-lg">
                     <div class="row contacts">
@@ -25,32 +24,35 @@
                             </div>
                             <div class="w-90 mx-auto mt-3 text-justify">
                                 <p class="text">
-                                    Nous sommes à votre ecoute et disponible à tout moment.N'hesitez pas à nous contacter 
+                                    Nous sommes à votre écoute et disponible à tout moment.N'hesitez pas à nous contacter
                                   </p>
                             </div>
-                            <div class="w-90 mx-auto mt-4 d-flex flex-column fw-bold">
+                            <div class="text-center">
+                                <img src="{{ asset('images/contact.png') }}" class="m-auto" width="75%" alt="">
+                            </div>
+                            <div class="w-90 mx-auto mt-2 d-flex flex-column fw-bold">
                                 <a href="#" class="mt-4 text-decoration-none contacts__add_link">
                                     <i class="icofont-envelope"></i>
                                     <span class="ml-2">endeavourtech0@gmail.com</span>
                                 </a>
-                                <a href="tel:0022660185425" class="mt-4 text-decoration-none contacts__add_link">
+                                <a href="tel:0022660185425" class="mt-2 text-decoration-none contacts__add_link">
                                     <i class="icofont-phone-circle"></i>
                                     <span class="ml-2">+226 60185425</span>
                                 </a>
                             </div>
-                            <div class="w-90 mt-5 mx-auto">
+                            <div class="w-90 mt-2 mx-auto">
                                 <p>Nous suivre sur: </p>
                             </div>
                             <div class="w-90 mx-auto d-flex">
-                                <a href="#" class="mt-4 text-decoration-none px-2 social__media__icon">
+                                <a href="#" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-facebook"></i>
                                 </a>
-                                <a href="tel:0022660185425" class="mt-4 text-decoration-none px-2 social__media__icon">
+                                <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-twitter"></i>
-                                </a>   
-                                <a href="tel:0022660185425" class="mt-4 text-decoration-none px-2 social__media__icon">
+                                </a>
+                                <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-linkedin"></i>
-                                </a>   
+                                </a>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 border py-3 text-center endeavour__bg-fourth">
@@ -82,7 +84,6 @@
     </div>
 
     <app-footer></app-footer>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="{{ asset('js/index.js') }}" type="module"></script>
 </body>
 </html>

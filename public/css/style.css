@@ -183,7 +183,7 @@ img[alt="programmer"], img[alt="services"] {
     background: var(--secondary);
     color: #fff;
     border-radius: 25px;
-    
+
 }
 
 .contact__link a {
@@ -304,7 +304,10 @@ button[type="submit"] {
     .model {width: 90%;
         margin-left: 15px;
     }
-    
+
+    .center {
+        margin-right: 25px;
+     }
 }
 
 @media (max-width: 768px) {
@@ -317,6 +320,10 @@ button[type="submit"] {
     img[alt="programmer"] {
         width: calc(100% / .7);
     }
+    .center {
+        margin-right: 25px;
+     }
+
 }
 
 @media (max-width: 320px) {
@@ -325,8 +332,27 @@ button[type="submit"] {
         width: 45px;
         height: 45px;
     }
+    .devis{
+        margin-left: 45px;
+    }
 
     .def__icon + span {font-size: 16px;}
 
     .col-10 {width: 98% !important;}
+
+    .center {
+       margin-right: 25px;
+    }
+
+
+}
+@media (max-width :390px){
+    .devis{
+        margin-left: 35px;
+    }
+}
+@media (max-width :375){
+    .devis{
+        margin-left: 40px;
+    }
 }

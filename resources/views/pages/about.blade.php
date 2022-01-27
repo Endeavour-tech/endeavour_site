@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>A propos de nous</title>
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href=" {{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 </head>
-
 <body>
     <div class="top__field md-5">
         <div class="container-fluid">
@@ -25,14 +23,24 @@
                             <h1 class="mb-4 desc__title">A PROPOS DE NOUS</h1>
                             <p class="fw-bold">Communiquez et innovez avec des formats créatifs pour interpeller vos
                                 audiences !</p>
-                            <p>Nos webdesigners créent vos supports digitaux de communication pour répondre à tous vos
+                            {{-- <p>Nos webdesigners créent vos supports digitaux de communication pour répondre à tous vos
                                 objectifs : développer votre image et notoriété, créer une préférence de marque et
                                 générer de l’engagement sur vos réseaux sociaux, développer votre business directement.
                                 Nous concevons des supports pour inciter les utilisateurs au clic, générer du trafic,
-                                capter des leads et booster la conversion.</p>
+                                capter des leads et booster la conversion.</p> --}}
+                                <p>
+                                    Endeavour Tech est une agence de services web, spécialisée dans la conception, le design, le développement  d’applications mobiles (Androïd, iOS) et des sites web (site statique, site dynamique, site vitrine, site e-commerce, application web etc). <br>
+                                    Notre objectif est d'une part developper des solutions mais aussi proposer nos services au particuliers et aux entreprises. <br>
+                                    <ul>
+                                        <li><span class="fw-bold">Notre vision</span class="fw-bold">: Chez Endeavour Tech , nous prénons le temps d'étudier et de comprendre les besoins de nos clients.
+                                            Nous avons à cœur d’analyser ensemble, avec vous, vos besoins et de mettre tout en œuvre pour développer une solution qui réponde en tout point à ceux-ci. Et tout cela avec une force tranquille, nécessaire pour l'épanouissement de chacun et l'aboutissement de chaque projet.
+                                        </li>
+                                        <li class="mt-2 "><span class="fw-bold">Nos valeurs</span>: Travail bien fait , Honnêtete , Innovation </li>
+                                    </ul>
+                                </p>
                         </div>
-                        <div class="col-lg-7 d-flex justify-content-end align-content-center">
-                            <lottie-player src="{{asset('assets/svg/lf30_editor_xz50tdub.json')}}" background="transparent" speed="1" style="width: 70%; height: auto;" loop autoplay></lottie-player>
+                        <div class="col-lg-7 d-flex justify-content-end align-content-center ">
+                            <img src="{{ asset('images/about.png') }}" width="90%" class="center"  alt="about us">
                         </div>
                     </div>
                 </div>
@@ -48,17 +56,17 @@
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
-                        <img src="{{ asset('images/hero-img.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Yaya Yarbanga</h3>
+                        <img src="{{ asset('images/yaya.png') }}" width="100" class="rounded-circle">
+                        <h3 class="mt-2">Yaya <span class="text-uppercase">Yaya</span></h3>
                         <span class="mt-1 clearfix">
-                            Android Developer
+                            Developpeur web fullstack/maintenancier
                         </span>
                         <small class="mt-4">
-                            I am an android developer working at google Inc at california,USA
+                            Responsable departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
                             <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="">
+                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Yaya Yarbanga">
                             </a>
                             <a class="mx-2" href="#">
                                 <i class="fa fa-linkedin fa-2x"></i>
@@ -73,17 +81,17 @@
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
-                        <img src="{{ asset('images/hero-img.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Abdoul Razack Nana</h3>
+                        <img src="{{ asset('images/razack.png') }}" width="100" class="rounded-circle">
+                        <h3 class="mt-2">Abdoul Razack <span class="text-uppercase">Nana</span></h3>
                         <span class="mt-1 clearfix">
-                            Android Developer
+                            Developpeur web back end
                         </span>
                         <small class="mt-4">
-                            I am an android developer working at google Inc at california,USA
+                            Responsable Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
                             <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="">
+                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Abdoul Razack Nana">
                             </a>
                             <a class="mx-2" href="#">
                                 <i class="fa fa-linkedin fa-2x"></i>
@@ -98,17 +106,17 @@
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
-                        <img src="{{ asset('images/hero-img.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Aboubakary Cisse</h3>
+                        <img src="{{ asset('images/cisse.png') }}" width="100" class="rounded-circle">
+                        <h3 class="mt-2">Aboubakary <span class="text-uppercase">cisse</span></h3>
                         <span class="mt-1 clearfix">
-                            Android Developer
+                            Developpeur web front end/maquetteur
                         </span>
                         <small class="mt-4">
-                            I am an android developer working at google Inc at california,USA
+                            Responsable adjoint departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
                             <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="">
+                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Aboubakary cisse">
                             </a>
                             <a class="mx-2" href="#">
                                 <i class="fa fa-linkedin fa-2x"></i>
@@ -123,17 +131,17 @@
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
-                        <img src="{{ asset('images/hero-img.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Ismael Ouiya</h3>
+                        <img src="{{ asset('images/ismael.png') }}" width="100" class="rounded-circle">
+                        <h3 class="mt-2">Ismael <span class="text-uppercase">ouiya</span></h3>
                         <span class="mt-1 clearfix">
-                            Android Developer
+                            Developpeur web fullstack
                         </span>
                         <small class="mt-4">
-                            I am an android developer working at google Inc at california,USA
+                            Community manager
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
                             <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="">
+                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Ismael ouiya">
                             </a>
                             <a class="mx-2" href="#">
                                 <i class="fa fa-linkedin fa-2x"></i>
@@ -148,17 +156,17 @@
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
-                        <img src="{{ asset('images/hero-img.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Amara Doukoure</h3>
+                        <img src="{{ asset('images/amara.jpg') }}" width="100" class="rounded-circle">
+                        <h3 class="mt-2">Amara <span class="text-uppercase">doukoure</span></h3>
                         <span class="mt-1 clearfix">
-                            Android Developer
+                            Developpeur mobile
                         </span>
                         <small class="mt-4">
-                            I am an android developer working at google Inc at california,USA
+                            Responsable Adjoint Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
                             <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="">
+                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Amara doukoure">
                             </a>
                             <a class="mx-2" href="#">
                                 <i class="fa fa-linkedin fa-2x"></i>
@@ -173,17 +181,17 @@
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
-                        <img src="{{ asset('images/hero-img.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Hugues aime Mihin</h3>
+                        <img src="{{ asset('images/aime.png') }}" width="100" class="rounded-circle">
+                        <h3 class="mt-2">Hugues aime <span class="text-uppercase">mihin</span></h3>
                         <span class="mt-1 clearfix">
-                            Android Developer
+                           Développeur web fullstack
                         </span>
                         <small class="mt-4">
-                            I am an android developer working at google Inc at california,USA
+                            Responsable Projet Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
                             <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="">
+                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Hugues aime mihin">
                             </a>
                             <a class="mx-2" href="#">
                                 <i class="fa fa-linkedin fa-2x"></i>

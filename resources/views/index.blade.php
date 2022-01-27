@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endeavour - Home</title>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href=" {{ asset('css/style.css') }}">
+    <link rel="stylesheet" href=" {{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -23,10 +24,10 @@
                             <h1 class="mb-4 desc__title">Agence de Developpement web</h1>
                             <p class="fw-bold">Communiquez et innovez avec des formats créatifs pour interpeller vos
                                 audiences !</p>
-                            <p>Endeavour TECH entend identifier des problemes et  developper des solutions numeriques innovantes tout en se focalisant sur les  nouvelles technologies informatique<br/>
-                                Nous sommes une agence composée d'une équipe de developpeurs dotées de compétences et de connaissances pluridisciplinaires et qui se veut être à l'écoute du client  </p>
-                            <div class="mt-5">
-                                <a href="#" class="text-decoration-none text-white devis">
+                            <p>Endeavour TECH  est une agence qui identifie des problèmes et  developpe des solutions numeriques innovantes tout en se focalisant sur les  nouvelles technologies informatiques<br/>
+                                Nous sommes une agence composée d'une équipe de developpeurs dotées de compétences et de connaissances pluridisciplinaires étant à l'écoute du client  </p>
+                            <div class="mt-5 ">
+                                <a href="#" class="text-decoration-none text-white devis ">
                                     <span>Demander un dévis</span>
                                     <span>
                                         <i class="icofont-rounded-right"></i>
@@ -158,7 +159,7 @@
                 </div>
             </div>
         </div>
-        
+
        @include('pages.components.speakAboutProjet')
 
         <button class="scrollTo__top__btn border-0 position-fixed d-none">

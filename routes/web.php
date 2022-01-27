@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/formation', function () {
+    return view('pages/formation_maintenance');
+});
 
 Route::get('/services', function () {
     return view('pages/services');

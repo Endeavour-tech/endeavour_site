@@ -1,7 +1,7 @@
 export default class AppHeader extends HTMLElement {
     constructor() {
         super()
-        this.attachShadow({mode: 'open'})
+        this.attachShadow({ mode: 'open' })
     }
 
     connectedCallback() {
@@ -30,7 +30,7 @@ export default class AppHeader extends HTMLElement {
                             <nav class="nav flex-column flex-lg-row justify-content-evenly">
                                 <a class="nav-link fw-bold active" href="/" data-active__name="home">Accueil</a>
                                 <a class="nav-link fw-bold" href="/services" data-path="/services" data-active__name="services">Services</a>
-                                <a class="nav-link fw-bold" href="#" data-path="/trainings" data-active__name="training">Formations</a>
+                                <a class="nav-link fw-bold" href="/formation" data-path="/trainings" data-active__name="training">Formations</a>
                                 <a class="nav-link fw-bold" href="/abouts" data-path="/abouts" data-active__name="abouts">A propos</a>
                                 <a class="nav-link fw-bold" href="/contacts" data-path="/contacts" data-active__name="contacts">Contacts</a>
                             </nav>
@@ -55,7 +55,7 @@ export default class AppHeader extends HTMLElement {
         this.close__navigation__menu.addEventListener('click', this.hideMenu.bind(this))
         this.scrollTo__top__btn.addEventListener('click', this.scrollToTop)
         window.onscroll = () => {
-            if(window.scrollY >= 200) this.scrollTo__top__btn.classList.remove('d-none')
+            if (window.scrollY >= 200) this.scrollTo__top__btn.classList.remove('d-none')
             else this.scrollTo__top__btn.classList.add('d-none')
         }
     }
@@ -73,6 +73,13 @@ export default class AppHeader extends HTMLElement {
                 font-size: 21px;
             }
 
+            ${
+                this.light ? this.lightNavStyle() : ''
+            }
+
+            .slogan {
+                font-size:14px;
+            }
             nav a:hover {color: var(--fifth) !important;}
 
             a[data-active__name="${this.getAttribute('active')}"] {
@@ -142,22 +149,6 @@ export default class AppHeader extends HTMLElement {
                     height: fit-content;
                     padding: 10px auto;
                     transition: background .3s, color .3s, box-shadow .3s;
-                }
-
-                .responsive__bar nav a:nth-child(2) {
-                    text-indent: 10px;
-                }
-                .responsive__bar nav a:nth-child(2) {
-                    text-indent: 20px;
-                }
-                .responsive__bar nav a:nth-child(3) {
-                    text-indent: 30px;
-                }
-                .responsive__bar nav a:nth-child(4) {
-                    text-indent: 40px;
-                }
-                .responsive__bar nav a:nth-child(5) {
-                    text-indent: 50px;
                 }
 
                 .responsive__bar nav a:hover {
