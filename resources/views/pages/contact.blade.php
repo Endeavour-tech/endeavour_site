@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <title>Endeavour | Contacts</title>
 </head>
 <body>
@@ -52,6 +53,9 @@
                                 </a>
                                 <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-linkedin"></i>
+                                </a>
+                                <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
+                                    <i class="bi bi-github"></i>
                                 </a>
                             </div>
                         </div>
