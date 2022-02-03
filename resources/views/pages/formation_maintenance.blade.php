@@ -43,9 +43,10 @@
     </main>
     <footer class="text-center">
         <nav class="footer-social-links">
-            <a href="#!" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
-            <a href="#!" class="social-link"><i class="mdi mdi-twitter"></i></a>
-            <a href="#!" class="social-link"><i class="mdi mdi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/EndeavTech" class="social-link"><i class="mdi mdi-facebook-box"></i></a>
+            <a href="https://www.instagram.com/endeavtech" class="social-link"><i class="mdi mdi-instagram"></i></a>
+            <a href="https://twitter.com/tech_endeavour" class="social-link"><i class="mdi mdi-twitter"></i></a>
+            <a href="https://wa.me/60185425" class="social-link"><i class="mdi mdi-whatsapp"></i></a>
         </nav>
         <p class="footer-text mb-0">
             © Copyright Endeavour Tech - 2021
