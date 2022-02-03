@@ -45,16 +45,16 @@
                                 <p>Nous suivre sur: </p>
                             </div>
                             <div class="w-90 mx-auto d-flex">
-                                <a href="#" class="mt-2 text-decoration-none px-2 social__media__icon">
+                                <a href="https://www.facebook.com/EndeavTech"  target="_blank" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-facebook"></i>
                                 </a>
-                                <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
+                                <a href="https://twitter.com/tech_endeavour"  target="_blank" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-twitter"></i>
                                 </a>
-                                <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
+                                <a href="https://www.linkedin.com/company/77586522/admin/"  target="_blank"  class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="icofont-linkedin"></i>
                                 </a>
-                                <a href="tel:0022660185425" class="mt-2 text-decoration-none px-2 social__media__icon">
+                                <a href="https://github.com/Endeavour-tech" target="_blank" class="mt-2 text-decoration-none px-2 social__media__icon">
                                     <i class="bi bi-github"></i>
                                 </a>
                             </div>

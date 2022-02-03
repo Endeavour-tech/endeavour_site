@@ -9,6 +9,7 @@
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
 </head>
 <body>
@@ -50,7 +51,7 @@
     <main class="container mb-5 ">
         <div class="mx-auto mb-4 blue__line"></div>
         <div class="text-center mb-2">
-            <h2 class="fw-bold">L'équipe</h2>
+            <h2 class="fw-bold">L' équipe</h2>
         </div>
         <div class="row g-4">
             <div class="col-10 col-lg-4 mx-auto">
@@ -65,13 +66,13 @@
                             Responsable departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Yaya Yarbanga">
+                            <a  href="https://wa.me/71626215"target="_blank" >
+                                <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
-                            <a class="mx-2" href="#">
+                            <a class="mx-2" href="#" target="_blank">
                                 <i class="fa fa-linkedin fa-2x"></i>
                             </a>
-                            <a class="text-black" href="#">
+                            <a class="text-black" href="https://github.com/Yarbanga" target="_blank">
                                 <i class="fa fa-github fa-2x"></i>
                             </a>
                         </div>
@@ -90,13 +91,13 @@
                             Responsable Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Abdoul Razack Nana">
+                            <a  href="#" target="_blank">
+                                <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
-                            <a class="mx-2" href="#">
+                            <a class="mx-2" href="#" target="_blank">
                                 <i class="fa fa-linkedin fa-2x"></i>
                             </a>
-                            <a class="text-black" href="#">
+                            <a class="text-black" href="#" target="_blank">
                                 <i class="fa fa-github fa-2x"></i>
                             </a>
                         </div>
@@ -115,13 +116,13 @@
                             Responsable adjoint departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Aboubakary cisse">
+                            <a  href="https://wa.me/66292862" target="_blank">
+                                <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
-                            <a class="mx-2" href="#">
+                            <a class="mx-2" href="https://www.linkedin.com/in/aboubakary-ciss%C3%A9-b768b81b4/" target="_blank">
                                 <i class="fa fa-linkedin fa-2x"></i>
                             </a>
-                            <a class="text-black" href="#">
+                            <a class="text-black" href="https://github.com/Aboubakary833" target="_blank">
                                 <i class="fa fa-github fa-2x"></i>
                             </a>
                         </div>
@@ -140,13 +141,13 @@
                             Community manager
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Ismael ouiya">
+                            <a  href="https://wa.me/60185425" target="_blank">
+                                <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
-                            <a class="mx-2" href="#">
+                            <a class="mx-2" href="https://www.linkedin.com/in/isma%C3%ABl-ouiya-293bba1a4/" target="_blank">
                                 <i class="fa fa-linkedin fa-2x"></i>
                             </a>
-                            <a class="text-black" href="#">
+                            <a class="text-black" href="https://github.com/Inosuke200" target="_blank">
                                 <i class="fa fa-github fa-2x"></i>
                             </a>
                         </div>
@@ -165,13 +166,13 @@
                             Responsable Adjoint Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Amara doukoure">
+                            <a  href="https://wa.me/66173341" target="_blank">
+                                <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
-                            <a class="mx-2" href="#">
+                            <a class="mx-2" href="https://www.linkedin.com/in/amara-doukoure-a90790206/" target="_blank">
                                 <i class="fa fa-linkedin fa-2x"></i>
                             </a>
-                            <a class="text-black" href="#">
+                            <a class="text-black" href="https://github.com/amaradouk10" target="_blank">
                                 <i class="fa fa-github fa-2x"></i>
                             </a>
                         </div>
@@ -190,13 +191,13 @@
                             Responsable Projet Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="#" >
-                                <img style="width: 27px; height:34px;" src="{{asset('assets/svg/discord_64px.png')}}" alt="Hugues aime mihin">
+                            <a  href="https://wa.me/75672644" target="_blank">
+                                <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
-                            <a class="mx-2" href="#">
+                            <a class="mx-2" href="https://www.linkedin.com/in/hugues-aimé-mihin-586657143" target="_blank">
                                 <i class="fa fa-linkedin fa-2x"></i>
                             </a>
-                            <a class="text-black" href="#">
+                            <a class="text-black" href="https://github.com/mihin21" target="_blank">
                                 <i class="fa fa-github fa-2x"></i>
                             </a>
                         </div>
@@ -210,7 +211,6 @@
     </main>
     <app-footer></app-footer>
     <script src="{{ asset('js/index.js') }}" type="module"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 
 </html>
