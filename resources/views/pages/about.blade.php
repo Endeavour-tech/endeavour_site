@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>A propos de nous</title>
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
     <link rel="stylesheet" href=" {{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,14 +52,14 @@
     <main class="container mb-5 ">
         <div class="mx-auto mb-4 blue__line"></div>
         <div class="text-center mb-2">
-            <h2 class="fw-bold">L' équipe</h2>
+            <h2 class="fw-bold">L'équipe</h2>
         </div>
         <div class="row g-4">
             <div class="col-10 col-lg-4 mx-auto">
                 <div class="card p-3 py-4 mt-5">
                     <div class="text-center">
                         <img src="{{ asset('images/yaya.png') }}" width="100" class="rounded-circle">
-                        <h3 class="mt-2">Yaya <span class="text-uppercase">Yaya</span></h3>
+                        <h3 class="mt-2">Yaya <span class="text-uppercase">Yarbanga</span></h3>
                         <span class="mt-1 clearfix">
                             Developpeur web fullstack/maintenancier
                         </span>
@@ -66,7 +67,7 @@
                             Responsable departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/71626215"target="_blank" >
+                            <a  href="https://wa.me/71626215" target="_blank" >
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="#" target="_blank">

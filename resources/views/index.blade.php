@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Endeavour - Home</title>
+    <meta name="descrition" content="Endeavour TECH  est une agence qui identifie des problèmes et developpe des solutions numeriques innovantes tout en se focalisant sur les  nouvelles technologies informatiques.Crée en 2021,Endeavour tech est constituée d'une équipe jeune dotée de plusieurs compétences et de connaissances qui est à l'écoute des besoins du client. ">
+    <meta name="keywords" content="Endeavour Tech,informatique,digital,developpement,mobile,web,maintenance,Burkina faso">
+    <meta name="author" content="Endeavour Tech">
+    <title>Endeavour - Accueil</title>
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
     <link rel="stylesheet" href=" {{ asset('css/style.css') }}">
     <link rel="stylesheet" href=" {{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
