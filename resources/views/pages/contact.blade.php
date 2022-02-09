@@ -39,7 +39,7 @@
                                 </a>
                                 <a href="tel:0022660185425" class="mt-2 text-decoration-none contacts__add_link">
                                     <i class="icofont-phone-circle"></i>
-                                    <span class="ml-2">+226 60185425</span>
+                                    <span class="ml-2">+226 60-18-54-25/71-34-41-16/75-67-26-44</span>
                                 </a>
                             </div>
                             <div class="w-90 mt-2 mx-auto">
