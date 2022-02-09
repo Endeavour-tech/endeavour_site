@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endeavour - Services</title>
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
      <link rel="stylesheet" href=" {{ asset('assets/icofont/icofont.min.css') }} ">
@@ -119,7 +120,7 @@
         </div>
 
            @include('pages.components.speakAboutProjet')
-           
+
         <button class="scrollTo__top__btn border-0 position-fixed d-none">
             <i class="icofont-rounded-up"></i>
         </button>
