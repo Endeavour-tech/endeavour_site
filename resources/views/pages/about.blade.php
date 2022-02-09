@@ -92,7 +92,7 @@
                             Responsable Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/7507649" target="_blank">
+                            <a  href="https://wa.me/75807649" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="https://www.linkedin.com/in/abdoul-razack-nana-0566a61a3" target="_blank">
