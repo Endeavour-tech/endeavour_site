@@ -67,7 +67,7 @@
                             Responsable departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/71626215" target="_blank" >
+                            <a  href="https://wa.me/22671626215" target="_blank" >
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="#" target="_blank">
@@ -92,7 +92,7 @@
                             Responsable Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/75807649" target="_blank">
+                            <a  href="https://wa.me/22675807649" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="https://www.linkedin.com/in/abdoul-razack-nana-0566a61a3" target="_blank">
@@ -117,7 +117,7 @@
                             Responsable adjoint departement innovation
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/66292862" target="_blank">
+                            <a  href="https://wa.me/22666292862" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="https://www.linkedin.com/in/aboubakary-ciss%C3%A9-b768b81b4/" target="_blank">
@@ -142,7 +142,7 @@
                             Community manager
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/60185425" target="_blank">
+                            <a  href="https://wa.me/22660185425" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="https://www.linkedin.com/in/isma%C3%ABl-ouiya-293bba1a4/" target="_blank">
@@ -167,7 +167,7 @@
                             Responsable Adjoint Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/66173341" target="_blank">
+                            <a  href="https://wa.me/22666173341" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="https://www.linkedin.com/in/amara-doukoure-a90790206/" target="_blank">
@@ -192,7 +192,7 @@
                             Responsable Projet Endeavour Tech
                         </small>
                         <div class="social-buttons mt-5 d-flex align-items-center justify-content-center">
-                            <a  href="https://wa.me/75672644" target="_blank">
+                            <a  href="https://wa.me/22675672644" target="_blank">
                                 <i class="fa fa-whatsapp fa-2x"></i>
                             </a>
                             <a class="mx-2" href="https://www.linkedin.com/in/hugues-aimé-mihin-586657143" target="_blank">
