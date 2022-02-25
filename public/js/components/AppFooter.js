@@ -23,7 +23,7 @@ export default class AppFooter extends HTMLElement {
                     <nav class="nav flex-column">
                         <a class="nav-link text-dark" href="/services">Services</a>
                         <a class="nav-link text-dark" href="/contact">Contacts</a>
-                        <a class="nav-link text-dark" href="#">A propos</a>
+                        <a class="nav-link text-dark" href="/abouts">A propos</a>
                     </nav>
                 </div>
                 <div class="col-6 col-md-4 text-justify text-md-center mx-auto">

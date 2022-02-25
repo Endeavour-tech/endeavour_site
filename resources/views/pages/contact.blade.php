@@ -62,8 +62,11 @@
                         </div>
                         <div class="col-12 col-md-6 border py-3 text-center endeavour__bg-fourth">
                             <h3 class="fw-bold text-white">Nous contacter</h3>
-
-                            <form action="#" method="post" class="contact__form mx-auto mt-5">
+                                @if ($message = Session::get("success"))
+                                   <strong class='text-white'> {{ $message }}</strong>
+                                @endif
+                            <form action="{{ route('contacts.store') }}" method="post" class="contact__form mx-auto mt-5">
+                                @csrf
                                 <div>
                                     <label for="fullname">Nom et prénom(s)</label>
                                     <input type="text" name="fullname" id="fullname" placeholder="Entrez vos identifiants complets" required>
