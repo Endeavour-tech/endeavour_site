@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,9 +28,6 @@ Route::get('/services', function () {
     return view('pages/services');
 });
 
-Route::get('/contacts', function () {
-    return view('pages/contact');
-});
 
 Route::get('/abouts', function () {
     return view('pages/about');
@@ -36,3 +36,10 @@ Route::get('/abouts', function () {
 Route::get('/devis', function () {
     return view('pages/devis');
 });
+Route::prefix('admin')->group (function (){
+    Route::get('login', [AuthController::class, 'login_index'])->name('login');
+    Route::post('login', [AuthController::class, 'authenticate'])->name('authentification');
+    Route::get('dashboard',[DashboardController::class , 'index'])->name('dashboard');
+    Route::post('logout',[DashboardController::class , 'logout'])->name('logout');
+});
+Route::resource('contacts','ContactController');
